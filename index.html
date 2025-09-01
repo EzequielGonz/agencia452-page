@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia 452 - ¡Regístrate en 1 Click y Recibí tu Bono! 🎰</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%);
+        }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        @keyframes floating {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        .cta-glow {
+            box-shadow: 0 0 30px rgba(16, 185, 129, 0.3);
+        }
+        .trust-badge {
+            background: linear-gradient(45deg, #065f46, #047857);
+            border: 1px solid #10b981;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-slate-800 via-slate-700 to-slate-900 min-h-screen">
+    <!-- Header Minimalista -->
+    <header class="glass-effect sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 flex items-center justify-center">
+                        <img src="506006838_17845020909507485_1238924020234181426_n.jpg" alt="Agencia 452 Logo" class="w-full h-full object-contain">
+                    </div>
+                    <h1 class="text-xl md:text-2xl font-bold text-white">Agencia 452</h1>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <span class="text-xs text-emerald-400 bg-emerald-900 bg-opacity-40 px-2 py-1 rounded-full">100% Seguro</span>
+                    <span class="text-xs text-blue-400 bg-blue-900 bg-opacity-40 px-2 py-1 rounded-full">+10.000 Usuarios</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section - CTA Principal -->
+    <section class="relative py-16 md:py-24 px-4">
+        <div class="container mx-auto text-center">
+            <div class="max-w-5xl mx-auto">
+                <!-- Trust Badges -->
+                <div class="flex flex-wrap justify-center gap-3 mb-8">
+                    <div class="trust-badge text-white text-xs px-3 py-1 rounded-full flex items-center">
+                        <i class="fas fa-shield-alt mr-1"></i>100% Legal
+                    </div>
+                    <div class="trust-badge text-white text-xs px-3 py-1 rounded-full flex items-center">
+                        <i class="fas fa-clock mr-1"></i>Atención en 2 min
+                    </div>
+                    <div class="trust-badge text-white text-xs px-3 py-1 rounded-full flex items-center">
+                        <i class="fas fa-bolt mr-1"></i>Retiro al instante
+                    </div>
+                </div>
+
+                <!-- Título Principal -->
+                <h2 class="text-4xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">
+                        ¡REGÍSTRATE EN 1 CLICK
+                    </span>
+                    <br>
+                    <span class="text-3xl md:text-5xl">Y RECIBÍ TU BONO!</span>
+                </h2>
+
+                <!-- Subtítulo Persuasivo -->
+                <p class="text-lg md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+                    <strong class="text-blue-400">+10.000 usuarios</strong> ya confían en nosotros. 
+                    <br class="hidden md:block">¡Únete y obtén tu bono exclusivo ahora!
+                </p>
+
+                <!-- CTA Principal - MEGA BOTÓN -->
+                <div class="mb-8">
+                    <button class="cta-glow bg-gradient-to-r from-emerald-600 to-teal-700 hover:from-emerald-700 hover:to-teal-800 text-white font-bold py-6 px-12 rounded-2xl text-2xl md:text-3xl transition-all transform hover:scale-105 shadow-2xl w-full max-w-2xl">
+                        <i class="fab fa-whatsapp mr-4 text-3xl"></i>
+                        ¡CREAR MI CUENTA AHORA!
+                    </button>
+                    <p class="text-sm text-gray-400 mt-3">✅ Sin comisiones • ✅ Sin requisitos • ✅ Bono inmediato</p>
+                </div>
+
+                <!-- Métodos de Pago -->
+                <div class="bg-white bg-opacity-5 backdrop-blur-sm rounded-xl p-4 md:p-6 max-w-2xl mx-auto border border-white border-opacity-10">
+                    <p class="text-gray-300 mb-3">Métodos de pago aceptados:</p>
+                    <div class="flex flex-wrap justify-center gap-6 text-sm">
+                        <span class="text-blue-400 font-medium">Mercado Pago</span>
+                        <span class="text-indigo-400 font-medium">Tarjetas de Crédito</span>
+                        <span class="text-slate-400 font-medium">Transferencias</span>
+                        <span class="text-emerald-400 font-medium">Billeteras Digitales</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Elementos Flotantes Sutiles -->
+        <div class="absolute top-20 left-10 text-4xl opacity-5 floating">🎰</div>
+        <div class="absolute top-40 right-20 text-3xl opacity-5 floating" style="animation-delay: 1s;">🃏</div>
+        <div class="absolute bottom-20 left-20 text-4xl opacity-5 floating" style="animation-delay: 2s;">🎲</div>
+    </section>
+
+    <!-- Sección de Bonos - Enfoque en Conversión -->
+    <section class="py-16 px-4">
+        <div class="container mx-auto">
+            <h3 class="text-3xl md:text-4xl font-bold text-white text-center mb-12">
+                🎁 Bonos Exclusivos Disponibles
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- Casino Club -->
+                <div class="glass-effect rounded-2xl p-8 text-center hover:scale-105 transition-all cursor-pointer border border-blue-500 border-opacity-20">
+                    <div class="text-7xl mb-6">🎰</div>
+                    <h4 class="text-3xl font-bold text-blue-400 mb-2">CASINO CLUB</h4>
+                    <div class="text-4xl font-bold text-white mb-4">$50.000</div>
+                    <p class="text-gray-300 mb-6">Mega bono de bienvenida</p>
+                    <div class="space-y-2 mb-6 text-sm text-gray-400">
+                        <p>✅ Bono inmediato</p>
+                        <p>✅ Sin requisitos</p>
+                        <p>✅ Plataforma oficial</p>
+                    </div>
+                    <button class="bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800 text-white font-bold py-4 px-8 rounded-xl transition-all transform hover:scale-105 w-full">
+                        ¡QUIERO ESTE BONO!
+                    </button>
+                </div>
+                
+                <!-- BPLAY -->
+                <div class="glass-effect rounded-2xl p-8 text-center hover:scale-105 transition-all cursor-pointer border border-emerald-500 border-opacity-20">
+                    <div class="text-7xl mb-6">🎮</div>
+                    <h4 class="text-3xl font-bold text-emerald-400 mb-2">BPLAY</h4>
+                    <div class="text-4xl font-bold text-white mb-4">$12.000</div>
+                    <p class="text-gray-300 mb-6">Bono de bienvenida exclusivo</p>
+                    <div class="space-y-2 mb-6 text-sm text-gray-400">
+                        <p>✅ Bono inmediato</p>
+                        <p>✅ Sin requisitos</p>
+                        <p>✅ Plataforma oficial</p>
+                    </div>
+                    <button class="bg-gradient-to-r from-emerald-600 to-teal-700 hover:from-emerald-700 hover:to-teal-800 text-white font-bold py-4 px-8 rounded-xl transition-all transform hover:scale-105 w-full">
+                        ¡QUIERO ESTE BONO!
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Confianza -->
+    <section class="py-16 px-4">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="glass-effect rounded-2xl p-8 text-center">
+                    <div class="text-5xl mb-4">🏆</div>
+                    <h4 class="text-2xl font-bold text-white mb-4">+10.000 Usuarios</h4>
+                    <p class="text-gray-300">Ya confían en Agencia 452 para sus bonos</p>
+                </div>
+                
+                <div class="glass-effect rounded-2xl p-8 text-center">
+                    <div class="text-5xl mb-4">🔒</div>
+                    <h4 class="text-2xl font-bold text-white mb-4">100% Seguro</h4>
+                    <p class="text-gray-300">Plataformas oficiales y legales</p>
+                </div>
+                
+                <div class="glass-effect rounded-2xl p-8 text-center">
+                    <div class="text-5xl mb-4">⚡</div>
+                    <h4 class="text-2xl font-bold text-white mb-4">Atención 24hs</h4>
+                    <p class="text-gray-300">Soporte personalizado en 2 minutos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final - Sin Distracciones -->
+    <section class="py-16 px-4">
+        <div class="container mx-auto text-center">
+            <div class="max-w-3xl mx-auto">
+                <h3 class="text-3xl md:text-4xl font-bold text-white mb-8">
+                    ¿Qué estás esperando?
+                </h3>
+                <p class="text-xl text-gray-300 mb-8">
+                    Únete a miles de usuarios que ya están ganando con sus bonos exclusivos
+                </p>
+                
+                <!-- CTA Secundario -->
+                <button class="cta-glow bg-gradient-to-r from-emerald-600 to-teal-700 hover:from-emerald-700 hover:to-teal-800 text-white font-bold py-5 px-10 rounded-2xl text-xl transition-all transform hover:scale-105 shadow-2xl w-full max-w-xl">
+                    <i class="fab fa-whatsapp mr-3 text-2xl"></i>
+                    ¡OBTENER MI BONO AHORA!
+                </button>
+                
+                <p class="text-sm text-gray-400 mt-4">
+                    💬 WhatsApp directo • ⚡ Respuesta en 2 minutos • 🎁 Bono inmediato
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Minimalista -->
+    <footer class="glass-effect mt-16">
+        <div class="container mx-auto px-4 py-6">
+            <div class="text-center">
+                <div class="flex justify-center items-center mb-3">
+                    <div class="w-8 h-8 flex items-center justify-center mr-2">
+                        <img src="506006838_17845020909507485_1238924020234181426_n.jpg" alt="Agencia 452 Logo" class="w-full h-full object-contain">
+                    </div>
+                    <h5 class="text-lg font-bold text-white">Agencia 452</h5>
+                </div>
+                <p class="text-sm text-gray-400">Casino Online Profesional • Juego responsable • Mayores de 18 años</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón Flotante Fijo de WhatsApp -->
+    <div class="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50">
+        <button class="cta-glow bg-gradient-to-r from-emerald-600 to-teal-700 hover:from-emerald-700 hover:to-teal-800 text-white font-bold py-4 px-8 rounded-full transition-all transform hover:scale-110 shadow-2xl pulse-animation">
+            <i class="fab fa-whatsapp mr-2 text-xl"></i>
+            ¡OBTENÉ TU BONO AHORA!
+        </button>
+    </div>
+
+    <!-- Botón Flotante de WhatsApp en Esquina -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <button class="bg-emerald-600 hover:bg-emerald-700 text-white w-16 h-16 rounded-full shadow-lg transition-all transform hover:scale-110">
+            <i class="fab fa-whatsapp text-2xl"></i>
+        </button>
+    </div>
+
+    <script>
+        // Smooth scrolling para enlaces internos
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Handlers para todos los botones de WhatsApp
+        document.querySelectorAll('button').forEach(button => {
+            if (button.textContent.includes('WhatsApp') || 
+                button.textContent.includes('BONO') || 
+                button.textContent.includes('CUENTA') ||
+                button.textContent.includes('Regístrate') ||
+                button.textContent.includes('Crear')) {
+                button.addEventListener('click', function() {
+                    // Mensaje personalizado para WhatsApp
+                    const message = encodeURIComponent('¡Hola! Quiero crear mi cuenta en Agencia 452 y obtener mi bono exclusivo. ¿Me pueden ayudar?');
+                    window.open(`https://wa.me/5491112345678?text=${message}`, '_blank');
+                });
+            }
+        });
+
+        // Efecto de scroll para el botón flotante
+        window.addEventListener('scroll', function() {
+            const floatingButton = document.querySelector('.fixed.bottom-6.left-1/2');
+            if (window.scrollY > 300) {
+                floatingButton.style.opacity = '1';
+                floatingButton.style.transform = 'translateX(-50%) scale(1)';
+            } else {
+                floatingButton.style.opacity = '0.8';
+                floatingButton.style.transform = 'translateX(-50%) scale(0.9)';
+            }
+        });
+    </script>
+</body>
+</html>
